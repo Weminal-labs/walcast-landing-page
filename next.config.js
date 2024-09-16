@@ -4,12 +4,9 @@ const withNextra = require('nextra')({
 })
 
 module.exports = withNextra({
-  redirects: () => [
-    {
-      source: '/docs',
-      destination: `/docs/latest`,
-      permanent: true,
-    },
-  ],
-  reactStrictMode: true
-});
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  reactStrictMode: true,
+})
