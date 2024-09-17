@@ -5,18 +5,5 @@
     "theme": {
       "layout": "raw"
     }
-  },
-  "user-guide": {
-    "type": "page",
-    "title": "User Guide"
-  },
-  "docs": {
-    "type": "page",
-    "href": "/docs/latest",
-    "title": "Documentation"
-  },
-  "change-log": {
-    "type": "page",
-    "title": "Change Log"
   }
 }
